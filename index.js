@@ -1,7 +1,7 @@
 // ⭐️ Example Challenge START ⭐️
 
 /**
- * ### Challenge `processFirstItem`
+ * ### Challenge `processFirstItem`    
  * 
  * @instructions
  * Implement a higher-order function called `processFirstItem`.
