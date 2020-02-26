@@ -168,7 +168,12 @@ function processContains(item, list, callback) {
  * should return 3.
 */
 function processDuplicateFree(list, callback) {
-  let newCallback = list.filter
+  let newCallback = list.filter((element, i) =>{
+  if(list.indexOf(element) === i) {
+    return element;
+  }
+  });
+  return newCallback;
 }
 
 /////////////// HIGHER-ORDER ARRAY METHODS ///////////////
